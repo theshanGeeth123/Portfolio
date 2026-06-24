@@ -478,7 +478,7 @@ function Navbar({ light, toggleTheme }: { light: boolean; toggleTheme: () => voi
 
       <div className="nav-actions">
         <ThemeToggle light={light} onToggle={toggleTheme} />
-        <motion.a className="download-pill" href="/Theshan-Geethanjana-CV.pdf" download whileHover={{ y: -2 }} whileTap={{ scale: 0.96 }}>
+        <motion.a className="download-pill" href="./Theshan-Geethanjana-CV.pdf" download whileHover={{ y: -2 }} whileTap={{ scale: 0.96 }}>
           <Download size={16} />
           <span>CV</span>
         </motion.a>
