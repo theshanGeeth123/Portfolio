@@ -694,7 +694,7 @@ function Hero() {
               <a href="mailto:theshangeethanjana@gmail.com">
                 <Mail size={17} /> Email
               </a>
-              <a href="/Theshan-Geethanjana-CV.pdf" download>
+              <a href="./Theshan-Geethanjana-CV.pdf" download>
                 <Download size={17} /> Download CV
               </a>
             </motion.div>
