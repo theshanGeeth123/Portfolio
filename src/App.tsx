@@ -459,7 +459,7 @@ function Navbar({ light, toggleTheme }: { light: boolean; toggleTheme: () => voi
       <motion.div className="nav-progress" style={{ scaleX: progress }} />
 
       <motion.a href="#home" className="brand-pill" aria-label="Go to home" whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-        <img src="/images-new/WhatsApp_Image_2025-07-19_at_8.23.24_PM-removebg-preview.png" alt="Theshan avatar" />
+        <img src="./images-new/Img2.png" alt="Theshan avatar" />
         <span>Theshan</span>
         <i>Portfolio</i>
       </motion.a>
@@ -708,7 +708,7 @@ function Hero() {
               transition={{ delay: 1, duration: 1, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="avatar-orbit">
-                <img src="../dist/images-new/Img1.png" alt="Theshan Geethanjana portrait" />
+                <img src="./images-new/Img1.png" alt="Theshan Geethanjana portrait" />
                 <span className="orbit one" />
                 <span className="orbit two" />
               </div>
