@@ -71,24 +71,24 @@ const stats = [
 ];
 
 const skills: Array<{ name: string; icon: string; type: SkillType; note: string }> = [
-  { name: 'HTML', icon: './png/htmllogo.png', type: 'Frontend', note: 'Semantic structure' },
-  { name: 'CSS', icon: './png/csslogo.png', type: 'Frontend', note: 'Responsive layouts' },
-  { name: 'JavaScript', icon: './png/jslogo.png', type: 'Frontend', note: 'Browser logic' },
-  { name: 'Tailwind', icon: './png/tailwind.png', type: 'Frontend', note: 'Utility styling' },
-  { name: 'React', icon: './png/reactlogo.png', type: 'Frontend', note: 'Component systems' },
-  { name: 'Next.js', icon: './png/nextlogo.png', type: 'Frontend', note: 'Modern web apps' },
-  { name: 'Node.js', icon: './png/node.png', type: 'Backend', note: 'Server APIs' },
+  { name: 'HTML', icon: './images-new/htmllogo.png', type: 'Frontend', note: 'Semantic structure' },
+  { name: 'CSS', icon: './images-new/csslogo.png', type: 'Frontend', note: 'Responsive layouts' },
+  { name: 'JavaScript', icon: './images-new/jslogo.png', type: 'Frontend', note: 'Browser logic' },
+  { name: 'Tailwind', icon: './images-new/tailwind.png', type: 'Frontend', note: 'Utility styling' },
+  { name: 'React', icon: './images-new/reactlogo.png', type: 'Frontend', note: 'Component systems' },
+  { name: 'Next.js', icon: './images-new/nextlogo.png', type: 'Frontend', note: 'Modern web apps' },
+  { name: 'Node.js', icon: './images-new/nodelogo.png', type: 'Backend', note: 'Server APIs' },
 
   { name: 'MongoDB', icon: './images-new/mongodb.svg', type: 'Database', note: 'NoSQL models' },
   { name: 'MySQL', icon: './images-new/mysql-logo-png-image-11660514413jvwkcjh4av-removebg-preview.png', type: 'Database', note: 'Relational data' },
   { name: 'Java', icon: './images-new/java2-removebg-preview.png', type: 'Backend', note: 'OOP projects' },
   { name: 'Kotlin', icon: './images-new/Kotlin_Icon-removebg-preview.png', type: 'Mobile', note: 'Android screens' },
 
-  { name: 'GitHub', icon: './png/githublogo.png', type: 'Tools', note: 'Version control' },
-  { name: 'Git', icon: './png/gitlogo.png', type: 'Tools', note: 'Source workflow' },
-  { name: 'Figma', icon: './png/figmalogo.png', type: 'Design', note: 'UI planning' },
-  { name: 'C', icon: './png/clogo.png', type: 'Programming', note: 'Programming basics' },
-  { name: 'C++', icon: './png/cpplogo.png', type: 'Programming', note: 'Problem solving' }
+  { name: 'GitHub', icon: './images-new/githublogo.png', type: 'Tools', note: 'Version control' },
+  { name: 'Git', icon: './images-new/gitlogo.png', type: 'Tools', note: 'Source workflow' },
+  { name: 'Figma', icon: './images-new/figmalogo.png', type: 'Design', note: 'UI planning' },
+  { name: 'C', icon: './images-new/clogo.png', type: 'Programming', note: 'Programming basics' },
+  { name: 'C++', icon: './images-new/cpplogo.png', type: 'Programming', note: 'Problem solving' }
 ];
 
 const services = [
