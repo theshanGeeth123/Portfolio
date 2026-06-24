@@ -71,22 +71,24 @@ const stats = [
 ];
 
 const skills: Array<{ name: string; icon: string; type: SkillType; note: string }> = [
-  { name: 'HTML', icon: '/src/png/htmllogo.png', type: 'Frontend', note: 'Semantic structure' },
-  { name: 'CSS', icon: '/src/png/csslogo.png', type: 'Frontend', note: 'Responsive layouts' },
-  { name: 'JavaScript', icon: '/src/png/jslogo.png', type: 'Frontend', note: 'Browser logic' },
-  { name: 'Tailwind', icon: '/src/png/tailwind.png', type: 'Frontend', note: 'Utility styling' },
-  { name: 'React', icon: '/src/png/reactlogo.png', type: 'Frontend', note: 'Component systems' },
-  { name: 'Next.js', icon: '/src/png/nextlogo.png', type: 'Frontend', note: 'Modern web apps' },
-  { name: 'Node.js', icon: '/src/png/node.png', type: 'Backend', note: 'Server APIs' },
-  { name: 'MongoDB', icon: '/images-new/mongodb.svg', type: 'Database', note: 'NoSQL models' },
-  { name: 'MySQL', icon: '/images-new/mysql-logo-png-image-11660514413jvwkcjh4av-removebg-preview.png', type: 'Database', note: 'Relational data' },
-  { name: 'Java', icon: '/images-new/java2-removebg-preview.png', type: 'Backend', note: 'OOP projects' },
-  { name: 'Kotlin', icon: '/images-new/Kotlin_Icon-removebg-preview.png', type: 'Mobile', note: 'Android screens' },
-  { name: 'GitHub', icon: '/src/png/githublogo.png', type: 'Tools', note: 'Version control' },
-  { name: 'Git', icon: '/src/png/gitlogo.png', type: 'Tools', note: 'Source workflow' },
-  { name: 'Figma', icon: '/src/png/figmalogo.png', type: 'Design', note: 'UI planning' },
-  { name: 'C', icon: '/src/png/clogo.png', type: 'Programming', note: 'Programming basics' },
-  { name: 'C++', icon: '/src/png/cpplogo.png', type: 'Programming', note: 'Problem solving' }
+  { name: 'HTML', icon: './png/htmllogo.png', type: 'Frontend', note: 'Semantic structure' },
+  { name: 'CSS', icon: './png/csslogo.png', type: 'Frontend', note: 'Responsive layouts' },
+  { name: 'JavaScript', icon: './png/jslogo.png', type: 'Frontend', note: 'Browser logic' },
+  { name: 'Tailwind', icon: './png/tailwind.png', type: 'Frontend', note: 'Utility styling' },
+  { name: 'React', icon: './png/reactlogo.png', type: 'Frontend', note: 'Component systems' },
+  { name: 'Next.js', icon: './png/nextlogo.png', type: 'Frontend', note: 'Modern web apps' },
+  { name: 'Node.js', icon: './png/node.png', type: 'Backend', note: 'Server APIs' },
+
+  { name: 'MongoDB', icon: './images-new/mongodb.svg', type: 'Database', note: 'NoSQL models' },
+  { name: 'MySQL', icon: './images-new/mysql-logo-png-image-11660514413jvwkcjh4av-removebg-preview.png', type: 'Database', note: 'Relational data' },
+  { name: 'Java', icon: './images-new/java2-removebg-preview.png', type: 'Backend', note: 'OOP projects' },
+  { name: 'Kotlin', icon: './images-new/Kotlin_Icon-removebg-preview.png', type: 'Mobile', note: 'Android screens' },
+
+  { name: 'GitHub', icon: './png/githublogo.png', type: 'Tools', note: 'Version control' },
+  { name: 'Git', icon: './png/gitlogo.png', type: 'Tools', note: 'Source workflow' },
+  { name: 'Figma', icon: './png/figmalogo.png', type: 'Design', note: 'UI planning' },
+  { name: 'C', icon: './png/clogo.png', type: 'Programming', note: 'Programming basics' },
+  { name: 'C++', icon: './png/cpplogo.png', type: 'Programming', note: 'Problem solving' }
 ];
 
 const services = [
@@ -119,8 +121,8 @@ const projects: Project[] = [
     year: '2026',
     description:
       'A full-stack web application designed to streamline camera studio operations with customer handling, bookings, packages, and business management workflows.',
-    image: '/images-new/camera-studio-project.png',
-    icon: '/images-new/mern_logo.png',
+    image: './images-new/camera-studio-project.png',
+    icon: './images-new/mern_logo.png',
     stack: ['MongoDB', 'Express.js', 'React', 'Node.js'],
     highlights: ['Studio operations dashboard', 'Customer and package workflows', 'Modern MERN project structure'],
     links: [{ label: 'GitHub', href: 'https://github.com/theshanGeeth123/MERN-Y2S2-PROJECT.git' }]
@@ -131,8 +133,8 @@ const projects: Project[] = [
     year: '2026',
     description:
       'A skill and project allocation platform for managing personnel, skill profiles, projects and automated best-fit member matching.',
-    image: '/images-new/SkillFusion.png',
-    icon: '/images-new/mern_logo.png',
+    image: './images-new/SkillFusion.png',
+    icon: './images-new/mern_logo.png',
     stack: ['MySQL', 'Docker', 'Express.js', 'React', 'Node.js'],
     highlights: ['Skill matching workflow', 'Project allocation features', 'Container-ready backend setup'],
     links: [{ label: 'GitHub', href: 'https://github.com/theshanGeeth123/skillmatch---Project.git' }]
@@ -143,8 +145,8 @@ const projects: Project[] = [
     year: '2025',
     description:
       'A complete Java web application with dynamic user interactions, data handling and full-stack event management features.',
-    image: '/images-new/Evntify.png',
-    icon: '/images-new/java2-removebg-preview.png',
+    image: './images-new/Evntify.png',
+    icon: './images-new/java2-removebg-preview.png',
     stack: ['Java', 'HTML', 'CSS', 'JavaScript'],
     highlights: ['Java backend flow', 'Dynamic UI screens', 'Event-focused data modules'],
     links: [{ label: 'GitHub', href: 'https://github.com/theshanGeeth123/JAVA-WEB-PROJECT' }]
@@ -155,8 +157,8 @@ const projects: Project[] = [
     year: '2025',
     description:
       'A movie discovery application using the TMDB API where users can browse popular movies, search titles and view detailed movie information.',
-    image: '/images-new/tmdb-movieP.png',
-    icon: '/images-new/tmdb logo.png',
+    image: './images-new/tmdb-movieP.png',
+    icon: './images-new/tmdb logo.png',
     stack: ['TMDB API', 'JavaScript', 'HTML', 'CSS'],
     highlights: ['Movie search and discovery', 'API-driven content', 'Clean details experience'],
     links: [{ label: 'GitHub', href: 'https://github.com/theshanGeeth123/movie-app-tmdb/tree/main' }]
@@ -167,8 +169,8 @@ const projects: Project[] = [
     year: '2025',
     description:
       'A modern Android shopping UI built for a smooth mobile commerce experience using Android Studio, Kotlin and XML.',
-    image: '/images-new/ShopEase2.png',
-    icon: '/images-new/Android_Studio_Logo_2024.svg-removebg-preview.png',
+    image: './images-new/ShopEase2.png',
+    icon: './images-new/Android_Studio_Logo_2024.svg-removebg-preview.png',
     stack: ['Android Studio', 'Kotlin', 'XML', 'Figma'],
     highlights: ['Mobile-first shopping flow', 'Reusable UI screens', 'Figma community design'],
     links: [
@@ -182,8 +184,8 @@ const projects: Project[] = [
     year: '2025',
     description:
       'A feature-rich fitness tracking Android application that helps users monitor and improve health, workout and routine progress.',
-    image: '/images-new/WellnessFlow.png',
-    icon: '/images-new/Android_Studio_Logo_2024.svg-removebg-preview.png',
+    image: './images-new/WellnessFlow.png',
+    icon: './images-new/Android_Studio_Logo_2024.svg-removebg-preview.png',
     stack: ['Android Studio', 'Kotlin', 'XML'],
     highlights: ['Fitness tracking UI', 'Health routine screens', 'Mobile app architecture'],
     links: [{ label: 'GitHub', href: 'https://github.com/theshanGeeth123/WellnessFlow-Android-App.git' }]
